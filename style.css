@@ -1,0 +1,38 @@
+
+body  {
+    font-family: Serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h3 {
+    font-size: 75%;
+}
+#map { 
+    height: 400px; 
+}
+pre {
+    background-color: gray;
+    color: white;
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 200px;
+    padding: 5px;
+    
+}
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 75%;
+}
+#step3code  {
+    height: 300px;
+}
+#step8code  {
+    height: 100px;
+}
+#intro_image  {
+    margin: auto;
+}
+a.contents:visited {
+    text-decoration-color: black;
+    color: black;
+}

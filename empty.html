@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+
+    </body>
+</html>
+
+L.geoJSON(data).addTo(map);
+L.geoJSON(data, {style: styleFunction}).addTo(map);
+<body>
+    <div class="map"></div>
+</body>
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+        crossorigin=""></script>
+    </head>
+    <body>
+        <div id="map"></div>
+        <script type="text/javascript" src="features.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>
+var map = L.map('map');
